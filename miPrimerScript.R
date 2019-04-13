@@ -48,5 +48,20 @@ funcionUno()
 
 #source me sirve para cargar cosas que habia creado antiguamente 
 
+funcionUno(1,2)
+# si modifico mi funcion tengo que volver a ejecutar para que la tome, si no guarada la antigua
+
+variableUno <- funcionUno(1,2)
+
+funcionVelocidad(10,2)
+
+restultado <- funcionResto(3,4,7)
+
+funcionRestoProf(3,4,7)
+#esta es parte de mi juego
+funcionsuma(restultado,4)
+
+
+
 
 
