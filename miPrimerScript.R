@@ -62,6 +62,17 @@ funcionRestoProf(3,4,7)
 funcionsuma(restultado,4)
 
 
+#como calcular la area del circulo
+
+source("primera funcion.R")
+
+variableSiete <- AreaCirculo(2)
+
+variableOcho <-  areaAnillo(3,2)
+                          
+anillo2(3,2)
+        
+
 
 
 

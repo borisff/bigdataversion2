@@ -25,3 +25,39 @@ funcionRestoProf <- function(a,b,c){
 funcionsuma <- function(restultado,x){
   print(restultado+x)
 }
+
+#areaCirculo:float -> float
+#calcula el area de un circulo con radio "radio"
+#ejemplo: 2-> 12.56637
+
+AreaCirculo <- function(radio){
+  print(pi*radio^2)
+}
+
+#areaAnillo: float, float -> float
+#calcula el area de un anillo con radio "radio1" y perforacion de un radio "radio"
+#ejemplo: 2,1->9.424778
+
+areaAnillo <- function(radio1,radio2){
+  print(pi*radio1^2-pi*radio2^2)
+}
+
+anillo2 <- function(R,r){
+  abs(AreaCirculo(R)-AreaCirculo(r))
+}
+    
+ #tiempoCasaAmigo: float float ->float
+#calculo de tiempo de llegada 
+#a la casa de mi amigo 
+#calculo distancia dividiendo a la velocidad
+#ejemplo:2,4 -> 1/2
+
+
+
+
+
+
+
+
+
+
