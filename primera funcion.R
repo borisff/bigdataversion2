@@ -43,7 +43,7 @@ areaAnillo <- function(radio1,radio2){
 }
 
 anillo2 <- function(R,r){
-  abs(AreaCirculo(R)-AreaCirculo(r))
+  (AreaCirculo(R)-AreaCirculo(r))
 }
     
  #tiempoCasaAmigo: float float ->float
